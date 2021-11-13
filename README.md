@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+My contact info at: https://peakd.com/about/@crrdlx/about
+
 https://crrdlx.github.io
 <!--
 **crrdlx/crrdlx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
