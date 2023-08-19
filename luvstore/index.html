@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LUVstore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body {
+      background: #fefefe;
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 22px;
+      font: 18px/1.5 -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
+                   'avenir next', avenir, /* MacOS and iOS */
+                   'Segoe UI', /* Windows */
+                   'lucida grande', /* Older MacOS */
+                   'helvetica neue', helvetica, /* Older MacOS */
+                   'Fira Sans', /* Firefox OS */
+                   roboto, noto, /* Google stuff */
+                   'Droid Sans', /* Old Google stuff */
+                   cantarell, oxygen, ubuntu, /* Linux stuff */
+                   'franklin gothic medium', 'century gothic', /* Windows stuff */
+                   'Liberation Sans', /* Linux */
+                   sans-serif; /* Everything else */;
+      color: #222;
+    }
+
+supersize {  /* this is fancified text, but it can be named as anything */
+    font-style: normal;
+    font-size: 120%;
+    color: #ff8c00;
+    text-transform: uppercase;
+}
+      
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+  border-bottom: solid 0.1rem firebrick;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+h5 {
+  font-size: 1.2em;
+  font-style: italic;
+}
+h6 {
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+    img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+    }</style>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
+  </head>
+
+<body>
+<a name="home_title"></a>
+<h1 id="LUVstore"><span style="color:red"> <strong>LUV</strong></span>store</h1>
+<center>HivePay</center>
+<p style="text-align:center"><em>The mission of @LUVshares is to spread love around the Hive blockchain.</em>
+  <br>LUV home: <a href="https://peakd.com/@luvshares">peakd.com/@luvshares</a></p>
+<p style="text-align:center"><img src="https://files.peakd.com/file/peakd-hive/luvshares/EopykZmM9txhy6Ggusc3tGBZhchhjcacrFWvuHEFC9xHRzkLkQsjMZindVziHqGR1Ak.gif"></p>
+
+<!--
+To view the details on the purchase, use the tx code in the gmail email and stick it on the end of hiveblocks, like this: https://hiveblocks.com/tx/03150bc689d507102d5146226f391fad95d857cf
+-->
+<!-- 
+A test sale.<br>
+HORScoin...an NFT on the WAX blockchain. Only costs a dime!<br>
+$0.10<br>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="merchant_name" value="LUVstore">
+    <input type="hidden" name="merchant_image" value="https://gateway.pinata.cloud/ipfs/QmQv73PbJxxKLvLXhDBWEBbHfoq2ptAkcdREdN4SKrorms">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="merchant_memo" value="HORScoin bought by HIVEBUYER">
+    <input type="hidden" name="item_name" value="HORScoin NFT">
+    <input type="hidden" name="description" value="This is a silly but fun NFT on the WAX blockchain.">
+    <input type="hidden" name="item_image" value="QmNakX1xcHxRrg4ykczqkmvZrK83nfqPfEEC7iEonn2D6s">
+    <input type="hidden" name="notify_url" value="">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="0.10">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="LUVstore">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Buy With HivePay">
+</form>
+-->
+
+
+
+
+<h1><span style="color:red">LUV</span>shares NFTs in Hive's NFTshowroom</h1>
+<h2>LUVbot-v002 NFT</h2>
+
+<h5>Price: $4.00 USD</h5>
+<p>There are only 3 editions of this NFT and only one is left.</a></p>
+<br><center><a href="https://nftshowroom.com/crrdlx/collection/crrdlx_luvshares_luvbot-v002" target="_blank"><img src="https://files.peakd.com/file/peakd-hive/crrdlx/23uRLAvwRZe1x3TiiRUf2X7PC5itqS3FcyHPBoWY7Yq2ff9rpPdYEAfLTZEnm1Ld11dYG.jpg" width=300></a></center></br>
+<center><small><small>click image to view on NFTshowroom</small></small></center>
+<p>The current $4.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="LUVbot v001 NFT">
+    <input type="hidden" name="description" value="You are purchasing a LUVshares NFT that is very limited in number. Understand, there is only 1 NFT and it will be sold on a first-come, first-serve basis. After being sold, it must be manually sent to you. So, there is a chance that you could pay for the NFT even after they it has already sold to someone else. In that case, you will not receive the NFT, but you will be refunded your tokens.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="4.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="LUVbot-v002 NFT bought by HIVEBUYER">
+
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+<h2>Giving LUV and love NFT</h2>
+
+<h5>Price: $4.00 USD</h5>
+<p>There are only 3 editions of this NFT and only one is left.</a></p>
+<br><center><a href="https://nftshowroom.com/crrdlx/collection/crrdlx_luvshares_giving-luv-and-love" target="_blank"><img src="https://files.peakd.com/file/peakd-hive/crrdlx/EpA428rMFVZBFy1JRviUC5vrsyXbChwa6TDdG9iKDddB99s8nFXzFPSQP8UUcWCXxT6.jpg" width=300></a></center></br>
+<center><small><small>click image to view on NFTshowroom</small></small></center>
+<p>The current $4.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="Giving LUV and love NFT">
+    <input type="hidden" name="description" value="You are purchasing a LUVshares NFT that is very limited in number. Understand, there is only 1 NFT and it will be sold on a first-come, first-serve basis. After being sold, it must be manually sent to you. So, there is a chance that you could pay for the NFT even after they it has already sold to someone else. In that case, you will not receive the NFT, but you will be refunded your tokens.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="4.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="Giving LUV and love NFT bought by HIVEBUYER">
+
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+<h2>Leveling Up NFT</h2>
+
+<h5>Price: $4.00 USD</h5>
+<p>There are only 3 editions of this NFT. They're sold first come, first serve.</a></p>
+<br><center><a href="https://nftshowroom.com/crrdlx/gallery/crrdlx_luvshares_leveling-up" target="_blank"><img src="https://files.peakd.com/file/peakd-hive/crrdlx/EoeLjcwUzxxZjuKsRuvDSEfkcAu9rGef6PM1kTX1fzWFCi9Rz7sf2nqTjzD28Sr3i1s.gif" width=300></a></center></br>
+<center><small><small>click image to view on NFTshowroom</small></small></center>
+<p>The current $4.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="Leveling Up NFT">
+    <input type="hidden" name="description" value="You are purchasing a LUVshares NFT that is very limited in number. Understand, there is only 1 NFT and it will be sold on a first-come, first-serve basis. After being sold, it must be manually sent to you. So, there is a chance that you could pay for the NFT even after they it has already sold to someone else. In that case, you will not receive the NFT, but you will be refunded your tokens.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="4.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="Leveling Up NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+
+
+<hr>
+
+<h1><span style="color:red">LUV</span>shares NFTs <span style="color:darkorange">on the WAX blockchain</span></h1>
+<p>WAX is a well-known chain when it comes to NFTs. To <b>receive the NFTs below, you will need a WAX address</b>. I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</p>
+
+<h2>LUVshares - the LUV token</h2>
+<h5>Price: $1.00 USD</h5>
+<p>This NFT features art and design by Hive user @amphlux who kindly allowed LUVshares to use it.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542777894" target="_blank"><img src="https://files.peakd.com/file/peakd-hive/crrdlx/23swcK6M16cFtnUWDV4NJMabVDx7MEuyPjFSUCoW773qkHrhz7WyujepfSah5zdKgPsfa.gif" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+  Important:<br>
+  <a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+  </center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="LUVshares - the LUV token">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="LUVshares - the LUV token bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+<h2>Giving Love and Empathy</h2>
+<h5>Price: $1.00 USD</h5>
+<p>This NFT features original art by Hive user @failingforwards who kindly allowed LUVshares to use it.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542827037" target="_blank"><img src="https://files.peakd.com/file/peakd-hive/crrdlx/AKLwf66s2zJpdeXY2n6nhicG8PAWE6bmS2LqWQxrZnwqZGFpdBsR8qvdyiydJrg.jpg" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="Giving Love and Empathy">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="Giving Love and Empathy bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+<h2>LUV whales</h2>
+<h5>Price: $1.00 USD</h5>
+<p>Are you a LUV whale? There's no specific amount of LUV to own to be a whale, but LUV does have <a href="https://peakd.com/luv/@luvshares/leveling-up" target="_blank">six levels</a>. Where are you?</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542920439" target="_blank"><img src="https://ipfs.io/ipfs/	QmRKgHGYGdn8rZXxaDzsTZMNuWKTdraAWjDcTZsNeQ185L" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="LUV whales">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="LUV whales NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+
+<h2>Use-cases of LUV</h2>
+<h5>Price: $1.00 USD</h5>
+<p>The question was asked about LUV, "What is its utility?" <a href="https://peakd.com/hive/@crrdlx/use-cases-or-uselessness-of-luv" target="_blank">and here is the answer</a>.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542923401" target="_blank"><img src="https://ipfs.io/ipfs/QmRT7ZtacitVUXpbzyYgSUHHwX4UQfZRi5MS7uAChfvjBj" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="Use cases of love">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="Use-cases of LUV bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+<h2>LUV and Proof-of-Love Mining</h2>
+<h5>Price: $1.00 USD</h5>
+<p>With Bitcoin, your Proof-of-Work efforts give <i>you</i> rewards. With LUV, your <a href="https://peakd.com/mining/@luvshares/mining-a-different-perspective" target="_blank">Proof-of-Love</a> efforts give <i>others</i> rewards in the form of LUV. It is giving without expecting anything in return.</p>
+<br><center><a href="https://wax.atomichub.io/market/sale/18680028" target="_blank"><img src="https://ipfs.io/ipfs/	QmbjMcBTWAQe3zRLgdwRcdYKWr2H1rfQcRhSSdPPapsDK2" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="LUV and Proof-of-Love Mining">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="LUV and Proof-of-Love Mining NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+<h2>Wheels Fall Off, You've Still Got LUV</h2>
+<h5>Price: $1.00 USD</h5>
+<p>Sometimes in life, the wheels just fall off. But, you've <a href="https://peakd.com/hive/@luvshares/luvtown-breakdown" target="_blank">still got your LUV</a>.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542924379" target="_blank"><img src="https://ipfs.io/ipfs/QmaYQu5AbFXkVbidZAYLYbqRfkiBfaugjBiLZJyehNjqVR" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="Wheels Fall Off, You've Still Got LUV">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="Wheels Fall Off, You've Still Got LUV NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+<h2>LUV Pizza Day</h2>
+<h5>Price: $1.00 USD</h5>
+<p>LUV now has a <a href="https://peakd.com/hive/@luvshares/luv-uber-alles" target="_blank">Pizza Day - May 16, 2021</a>, the day that first item was bought/sold for LUV.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542925598" target="_blank"><img src="https://ipfs.io/ipfs/QmPuu26Fcieam8wBn3yXkme5romrXV8MUgTbyEM4ze9Hit" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="LUV Pizza Day - May 16">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="LUV Pizza Day NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+
+
+
+<h2>Rainy Day in Crypto - LUV</h2>
+<h5>Price: $1.00 USD</h5>
+<p>Crypto doesn't <i>always</i> go up. Hold onto your LUV when it's a <a href="https://peakd.com/crypto/@crrdlx/rainy-day-in-crypto" target="_blank">rainy day in crypto</a>. And remember, even while it's cloudy and stormy and raining, the moon is still up there.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542925813" target="_blank"><img src="https://ipfs.io/ipfs/QmTT2dfJ1THe5BtfY4ctz2rWUEEkbPJL2XJXzhKS8GLxRd" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="Rainy Day in Crypto - LUV">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="Rainy Day in Crypto - LUV NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+<h2>LUV Transparency or LUV Halloween?</h2>
+<h5>Price: $1.00 USD</h5>
+<p>The <a href="https://peakd.com/transparency/@crrdlx/transparency" target="_blank">LUV transparency report</a> looks more like a LUV Halloween.</p>
+<br><center><a href="https://wax.atomichub.io/explorer/asset/1099542926540" target="_blank"><img src="https://ipfs.io/ipfs/	QmasmSkTFquHxuBpcJ2LdP6VvQWHF6BdV8tR8ZUD9kpfTJ" width=300></a></center></br>
+<center><small><small>click image to view on the WAX chain</small></small></center>
+<p>To <b>receive this NFT, you will need a WAX address</b>. <small>I recommend a WAX Cloud Wallet address for its simplicity. One can easily be obtained at <a href="https://wallet.wax.io/" target="_blank">https://wallet.wax.io</a>. A WAX Cloud Wallet is short and will usually look something like xxxxx.wam</small></p>
+<p>The current $1.00 value will be calculated for your chosen token. Realize, this can change at any time based on the <u>last</u> market price. If you feel it's too high, check back later.</p>
+<center>
+Important:<br>
+<a href="https://forms.gle/v3mUko1gZVRf7iqm6" target="_blank"><img src="images/wax-message-button.png"></a>
+</center>
+<center>
+<form action="https://hivepay.io/purchase/" method="post">
+    <input type="hidden" name="merchant" value="crrdlx">
+    <input type="hidden" name="item_name" value="LUV Transparency or LUV Halloween?">
+    <input type="hidden" name="description" value="Important: a WAX wallet address is needed to receive this NFT. Be sure you have completed the 2-item form using the blue button on the previous page.">
+    <input type="hidden" name="notify_url" value="https://peakd.com/@luvshares">
+    <input type="hidden" name="return_url" value="https://peakd.com/hive/@luvshares/thank-you">
+    <input type="hidden" name="amount" value="1.00">
+    <input type="hidden" name="base_currency" value="USD">
+    <input type="hidden" name="merchant_email" value="123rmc@gmail.com">
+    <input type="hidden" name="pay_currency" value="HIVE,SWAP.HIVE,HBD,LUV,HBIT,PIZZA,LOLZ,BEER,AFIT,CROP,SIM,SPORTS,NEOXAG,TOP10T">
+    <input type="hidden" name="merchant_name" value="luvshares">
+    <input type="hidden" name="cancel_url" value="https://crrdlx.websavvy.work/luvstore/index.html">
+    <input type="hidden" name="merchant_memo" value="LUV Transparency or LUV Halloween? NFT bought by HIVEBUYER">
+    <input type="image" src="https://hivepay.io/buttons/1.png" alt="Pay With HivePay">
+</form>
+<small><small>(click to see current price in your preferred token)</small></small>
+</center>
+
+
+
+
+<h1>Important Note:</h1>
+<p>Understand, there is a  a limited quantity of each NFT and they will be sold on a first-come, first-serve basis, in order starting with lowest mint currently available. After being sold, each NFT must be manually sent...allow a little time. There is a <i>chance</i> that you could pay for the NFT even after they've already sold out. If that happens, <u>you will not receive</u> the NFT, but <u>you will be refunded</u> your tokens.</p>
+
+
+
+
+<p style="text-align:center"><a href="#home_title">Jump to top of page.</a></p>
+
+
+<!-- Default Statcounter code for https://crrdlx.websavvy.work/ https://crrdlx.websavvy.work/
+-->
+<script type="text/javascript">
+  var sc_project=12533288; 
+  var sc_invisible=1; 
+  var sc_security="21fc2023"; 
+  </script>
+  <script type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics"
+  href="https://statcounter.com/" target="_blank"><img
+  class="statcounter"
+  src="https://c.statcounter.com/12533288/0/21fc2023/1/"
+  alt="Web Analytics"></a></div></noscript>
+  <!-- End of Statcounter Code -->
+  </body>
+</html>
