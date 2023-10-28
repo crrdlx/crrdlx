@@ -2,9 +2,8 @@
 
 My contact info at: https://peakd.com/about/@crrdlx/about
 
-Links to my stuff: https://linktr.ee/crrdlx
+Links to stuff I've done: https://linktr.ee/crrdlx
 
-https://crrdlx.github.io
 <!--
 **crrdlx/crrdlx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
