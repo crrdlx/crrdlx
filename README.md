@@ -8,7 +8,7 @@ Here are some examples of my projects:
 
 ### Bitcoin
 
-**Kicking the Hornet's Nest**: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency can be downloaded for free or purchased as a real book. It was featured on Bitcoin.com in this book review.
+**Kicking the Hornet's Nest**: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency can be downloaded for free or purchased as a real book. It was featured on Bitcoin.com in [this book review](https://news.bitcoin.com/bitcoins-inception-a-340-page-book-compiles-all-of-satoshis-writings-in-chronological-order/).
 
 **Satoshi Bitcoin Converter** - App to check crypto/fiat prices and units - http://satoshibitcoinconverter.com Started in 2013, this was one of my first crypto projects.
 
