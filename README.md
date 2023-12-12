@@ -30,7 +30,7 @@ The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. 
 
 The **Million Dollar NFT** - read about the [Million Dollar NFT here](https://peakd.com/nfts/@crrdlx/million-dollar-nft) or view it in the NFTshowroom. Also, the Million Dollar NFT 2 - the "MDN2," is for sale on [OpenSea on the Ethereum chain]
 
-### [Hive}(https://hive.io/) blockchain
+### [Hive](https://hive.io/) blockchain
 
 "**The Hive Story Animation**" at https://ecency.com/hive-181335/@crrdlx/pkygxpzl An animated vid that shows how Hive came to be.
 
