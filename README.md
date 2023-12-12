@@ -22,7 +22,7 @@ The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. 
 
 **[The Hodl Song](https://peakd.com/crypto/@crrdlx/the-hodl-song)** - a silly sea shanty song, almost as good as the **[Christmas Puppy](https://nefties.com/pages/puppy.html)** song.
 
-**Bitcointalk.org** - See my very few posts on the original Bitcoin forum set up by Satoshi himself. Looks like I started posting in June of 2012.
+**Bitcointalk.org** - [See my very few posts](https://bitcointalk.org/index.php?action=profile;u=61129;sa=showPosts) on the original Bitcoin forum set up by Satoshi himself. Looks like I started posting in June of 2012.
 
 ### NFTs
 
