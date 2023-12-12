@@ -12,7 +12,7 @@ Here are some examples of my projects:
 
 **Satoshi Bitcoin Converter** - App to check crypto/fiat prices and units - http://satoshibitcoinconverter.com Started in 2013, this was one of my first crypto projects.
 
-**Nostr** - My npub is ```npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j``` and I can be seen at places like https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j along with Bitcoin Lightning Network address crrdlx@getalby.com
+**Nostr** - My npub is ```npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j``` and I can be seen at places like https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j along with Bitcoin Lightning Network address [crrdlx@getalby.com](https://getalby.com/p/crrdlx)
     
 **Nostr wiki** - Visit https://nostr.on.fleek.co It is a wiki, you can add to or edit.
 
