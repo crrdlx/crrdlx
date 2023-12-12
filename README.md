@@ -28,7 +28,7 @@ The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. 
 
 **[nefties.com](https://nefties.com)** - You can't say NFTs without nefties - https://nefties.com This domain name is for sale.
 
-The **Million Dollar NFT** - read about the [Million Dollar NFT here](https://peakd.com/nfts/@crrdlx/million-dollar-nft) or view it in the NFTshowroom. Also, the Million Dollar NFT 2 - the "MDN2," is for sale on [OpenSea on the Ethereum chain]
+The **Million Dollar NFT** - read about the [Million Dollar NFT here](https://peakd.com/nfts/@crrdlx/million-dollar-nft)
 
 ### [Hive](https://hive.io/) blockchain
 
