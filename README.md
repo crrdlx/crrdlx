@@ -1,8 +1,63 @@
-### Hi there 👋
+## Hi 👋
 
-My contact info at: https://peakd.com/about/@crrdlx/about
+Hello, I'm crrdlx or CR for short.
 
-Links to stuff I've done: https://linktr.ee/crrdlx
+I create stuff. Links at https://linktr.ee/crrdlx
+
+Here are some examples of my projects:
+
+### Bitcoin
+
+**Kicking the Hornet's Nest**: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency can be downloaded for free or purchased as a real book. It was featured on Bitcoin.com in this book review.
+
+**Satoshi Bitcoin Converter** - App to check crypto/fiat prices and units - http://satoshibitcoinconverter.com Started in 2013, this was one of my first crypto projects.
+
+**Nostr** - My npub is ```npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j``` and I can be seen at places like https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j along with Bitcoin Lightning Network address crrdlx@getalby.com
+    
+**Nostr wiki** - Visit https://nostr.on.fleek.co It is a wiki, you can add to or edit.
+
+**Ordinals** - I put everything Satoshi wrote on chain as ordinal inscriptions. The words that started Bitcoin and cryptocurrency now live on the blockchain that they created. Links and info at https://peakd.com/bitcoin/@crrdlx/satoshi
+
+The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. On the web: https://Bitkenstan.com, on Hive: https://hive.blog/@bitkenstan
+
+**[The Hodl Song](https://peakd.com/crypto/@crrdlx/the-hodl-song)** - a silly sea shanty song, almost as good as the **[Christmas Puppy](https://nefties.com/pages/puppy.html)** song.
+
+**Bitcointalk.org** - See my very few posts on the original Bitcoin forum set up by Satoshi himself. Looks like I started posting in June of 2012.
+
+### NFTs
+
+    nefties.com - You can't say NFTs without nefties - https://nefties.com This domain name is for sale.
+    The Million Dollar NFT - read about the Million Dollar NFT here or view it in the NFTshowroom. Also, the Million Dollar NFT 2 - the "MDN2," is for sale on [OpenSea on the Ethereum chain]
+
+### Hive blockchain
+
+    "The Hive Story Animation" at https://ecency.com/hive-181335/@crrdlx/pkygxpzl An animated vid that shows how Hive came to be.
+    Hive General - a community chat for Hive at https://chat.peakd.com/t/hive-116655/0 How to join at: https://hivegeneral.netlify.app/hivegeneral
+    The HiveWiki is just what is sounds like...a wiki for the Hive blockchain. Anyone can learn about Hive or edit the wiki.
+    LUV - I created LUV. Well, I made the LUV token. The goal is to spread love around the Hive blockchain. Read about the LUV token at https://hive.blog/@luvshares and the LUV market (where you can buy LUV) at Hive-Engine or TribalDex, or LeoDEX.
+    HBIT - Hivebits (HBIT) blends Hive's blockchain and Bitcoin's ethos. Your effort = your reward. You can "mine" HBIT simply by replying with !hivebits or !HBIT. Try it here, right now, by using either command in a reply/comment...you'll earn HBIT. Read about HBIT.
+    Wusang:Isle of Blaq - Wusang is the Worlds Ultra Simple Asset Numbers Game. It runs on Hive, gives away tokens, and has stories of pirates and ghosts.
+    For Hive-Engine tokens, there's the HEconverter to jump between prices/values of H-E tokens, Hive, and USD. Want your favorite H-E token there? Request it in a comment here. There's also the Tip Token Calculator which shows how much a Hive tip/engagement is currently worth.
+
+There's a bunch more stuff I made. A lot is just silly or funny, but that's okay in my view. Plus, it's all 100% original. You can see much of what I've made at https://nefties.com/stuff
+
+    Feel free to reach out and say hello. :)
+
+From someone who basically just skipped the other "social media," I really like the Hive blockchain. It has three parts: (1) technical - it has very smart people doing smart techy stuff, (2) financial - HIVE and HBD and your upvotes have real value, and (3) social - it's like other social media, but YOU own and benefit from your stuff, not the social media corporation. You can join Hive using the link below. Email me and I'll support you as you start.
+
+### Contact:
+
+    Email: crrdlx@protonmail.com
+    Nostr: https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j along with Bitcoin Lightning Network address crrdlx@getalby.com
+    Matrix: username @crrdlx:matrix.org on the decentralized the Matrix protocol: https://matrix.to/#/#hivegeneral:matrix.org
+    Hive: @crrdlx
+    Hive General community chat on Hive: https://chat.peakd.com/t/hive-116655/0 How to join: https://hivegeneral.netlify.app/hivegeneral
+    Join Hive: https://hiveonboard.com?ref=crrdlx
+    X/Twitter: @crrdlx
+    Discord: username crrdlx The fastest/easiest place to find me is in the LUV-HBIT Discord server at https://discord.gg/K5GvNhcPqR
+    Telegram: username crrdlx
+
+:)
 
 <!--
 **crrdlx/crrdlx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
