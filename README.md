@@ -24,6 +24,8 @@ The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. 
 
 **Bitcointalk.org** - [See my very few posts](https://bitcointalk.org/index.php?action=profile;u=61129;sa=showPosts) on the original Bitcoin forum set up by Satoshi himself. Looks like I started posting in June of 2012.
 
+**Drop a tip** via the Bitcoin Lightning Network at https://getalby.com/p/crrdlx
+
 ### NFTs
 
 **[nefties.com](https://nefties.com)** - You can't say NFTs without nefties - https://nefties.com This domain name is for sale.
