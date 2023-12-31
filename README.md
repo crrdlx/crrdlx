@@ -64,7 +64,7 @@ Matrix: username @crrdlx:matrix.org on the decentralized the Matrix protocol: ht
 
 Hive: @crrdlx
 
-Join Hive: https://hiveconnect.on.fleek.co/
+Join Hive: https://crrdlx.on.fleek.co/hive-vip-ticket.html
 
 X/Twitter: @crrdlx
 
