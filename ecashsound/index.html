@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ecash by sound</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    body {
+      background: #fefefe;
+      max-width: 750px;
+      margin: 40px auto;
+      padding: 0 22px;
+      font: 18px/1.5 -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
+                   'avenir next', avenir, /* MacOS and iOS */
+                   'Segoe UI', /* Windows */
+                   'lucida grande', /* Older MacOS */
+                   'helvetica neue', helvetica, /* Older MacOS */
+                   'Fira Sans', /* Firefox OS */
+                   roboto, noto, /* Google stuff */
+                   'Droid Sans', /* Old Google stuff */
+                   cantarell, oxygen, ubuntu, /* Linux stuff */
+                   'franklin gothic medium', 'century gothic', /* Windows stuff */
+                   'Liberation Sans', /* Linux */
+                   sans-serif; /* Everything else */;
+      color: #222;
+    }
+
+supersize {  /* this is fancified text, but it can be named as anything */
+    font-style: normal;
+    font-size: 120%;
+    color: #ff8c00;
+    text-transform: uppercase;
+}
+      
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+h1 {
+  font-size: 2.2em;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8em;
+  border-bottom: solid 0.1rem firebrick;
+}
+h3 {
+  font-size: 1.5em;
+}
+h4 {
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+h5 {
+  font-size: 1.2em;
+  font-style: italic;
+}
+h6 {
+  font-size: 1.1em;
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+    img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+    }</style>
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
+  </head>
+
+<body>
+<a name="home_title"></a>
+<h1 id="ecash-sound"><span style="color:darkorange">ecash</span> by sound</h1>
+<p>A proof-of-concept to transfer bitcoin sats as ecash via sound using the <a href="https://cashu.space/" target="_blank">Cashu</a> protocol.</p>
+<p>Ecash can be sent digitally as text data, visually via a QR code reader, physically as a piece of paper with text or a QR printed on it. How about audibly? Can ecash be sent via sound?</p>
+<p>This will use <a href="https://en.wikipedia.org/wiki/PSK31" target="_blank">psk31</a> as the text-via-sound protocol. psk31 is similar to Morse Code, except that psk31 allows for upper and lowercase characters which is necessary for a Cashu token.</p>
+
+<center>
+<audio controls>
+  <source src="ecash-psk-sats-21.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+</center>
+
+<p>To try to receive these 21 sats as ecash, you'll need the following:</p>
+<ol>
+  <li>A Cashu wallet. There are many, I used <a href="https://cashu.me" target="_blank">cashu.me</a> because it is browser-based.</li>
+  <li>Software to decode psk31. I used "Fldigi" (the only one I found for Linux) and there are others for Windows. Search, find, install.</li>
+  <li>The audio above.</li>
+</ol>
+
+<p>Receiving data using Fldigi looks like the gif below:</p>
+
+<center></center><img src="ecash-fldigi.gif"></center>
+
+<p>Just to explain what's going on here: a sound file is playing. You cannot hear it in the gif, of course, but there was sound playing audibly when the video was captured.  On Fldigi, I set the Op_Mode to "psk31". The microphone on my computer is picking up the sound. Fldigi "shows" the audio in the "waterfall", the blue stream underneath "2000" in the gif. The red bars are the "tuner" to pick up the blue stream, I manually slid it over to the stream. Fldigi then simply decodes the sounds into text. This is how you will "hear" and see the Cashu token.</p>
+
+<p>I tested the process successfully. I copied the token from Fldigi and used cashu.me to RECEIVE-->ECASH and pasted in the Cashu token. The token came back as valid. I did every step except "RECEIVE" the ecash. See image below. In other words, this should work.</p>
+
+<center><img src="ecash-test.png"></center>
+
+<p>Note that if the token has already been claimed by someone, you will get an error such as below:</p>
+<center><img src="ecash-error.gif"></center>
+
+<p>Will this be the "world's first" ecash sent via sound? I don't know, but it sounds good! 😀</p>
+
+<p style="text-align:center"><a href="#home_title">Jump to top of page.</a></p>
+  </body>
+</html>
