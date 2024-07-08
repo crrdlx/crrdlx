@@ -18,7 +18,7 @@ Here are some examples of my projects:
 
 **Ordinals** - I put everything Satoshi wrote on chain as ordinal inscriptions. The words that started Bitcoin and cryptocurrency now live on the blockchain that they created. Links and info at https://peakd.com/bitcoin/@crrdlx/satoshi
 
-The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. On the web: https://Bitkenstan.com, on Hive: https://hive.blog/@bitkenstan
+The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. On the web: https://bitkenstan.vercel.app, on Hive: https://hive.blog/@bitkenstan
 
 **[The Hodl Song](https://peakd.com/crypto/@crrdlx/the-hodl-song)** - a silly sea shanty song, almost as good as the **[Christmas Puppy](https://nefties.com/pages/puppy.html)** song.
 
