@@ -8,7 +8,7 @@ Here are some examples of my projects:
 
 ### Bitcoin
 
-**Kicking the Hornet's Nest**: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder and Creator of Bitcoin Edition three is out! - including 100+ "COPA trial" emails. The book can be downloaded for free or purchased as a real book. All links at https://hive.blog/@crrdlx/satoshi. It was featured on Bitcoin.com in [this book review](https://news.bitcoin.com/bitcoins-inception-a-340-page-book-compiles-all-of-satoshis-writings-in-chronological-order/).
+**[[Kicking the Hornet's Nest]](https://crrdlx.vercel.app/kicking/index.html)**: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder and Creator of Bitcoin Edition three is out! - including 100+ "COPA trial" emails. The book can be downloaded for free or purchased as a real book. All links at https://hive.blog/@crrdlx/satoshi. It was featured on Bitcoin.com in [this book review](https://news.bitcoin.com/bitcoins-inception-a-340-page-book-compiles-all-of-satoshis-writings-in-chronological-order/).
 
 **Satoshi Bitcoin Converter** - App to check crypto/fiat prices and units - http://satoshibitcoinconverter.com Started in 2013, this was one of my first crypto projects.
 
