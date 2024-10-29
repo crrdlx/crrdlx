@@ -38,13 +38,13 @@ The **Million Dollar NFT** - read about the [Million Dollar NFT here](https://pe
 
 **Hive General** - a community chat for Hive at https://chat.peakd.com/t/hive-116655/0 How to join at: https://hivegeneral.netlify.app/hivegeneral
 
-The **HiveWiki** is just what is sounds like...a wiki for the Hive blockchain. Anyone can learn about Hive or edit the wiki.
+The **HiveWiki** - https://hivewiki.vercel.app is just what is sounds like...a wiki for the Hive blockchain. Anyone can learn about Hive or edit the wiki.
 
 **LUV** - I created LUV. Well, I made the LUV token. The goal is to spread love around the Hive blockchain. Read about the LUV token at https://hive.blog/@luvshares and the LUV market (where you can buy LUV) at Hive-Engine or TribalDex.
 
 **HBIT** - Hivebits (HBIT) blends Hive's blockchain and Bitcoin's ethos. Your effort = your reward. You can "mine" HBIT simply by replying with !hivebits or !HBIT. Try it here, right now, by using either command in a reply/comment...you'll earn HBIT. [Read about HBIT](https://peakd.com/hive/@hivebits/about).
 
-**Wusang:Isle of Blaq** - [Wusang](https://peakd.com/@wusang) is the Worlds Ultra Simple Asset Numbers Game. It runs on Hive, gives away tokens, and has stories of pirates and ghosts.
+**Wusang:Isle of Blaq** - [Wusang](https://peakd.com/@wusang) is the Worlds Ultra Simple Asset Numbers Game. It runs on Hive, gives away tokens, and has stories of pirates and ghosts. There is also a hidden treasure of ecash sats waiting to be found.
 
 For **Hive-Engine** tokens, there's the [HEconverter](https://heconverter.on.fleek.co/) to jump between prices/values of H-E tokens, Hive, and USD. There's also the [Tip Token Calculator](https://hivetiptokens.on.fleek.co/) which shows how much a Hive tip/engagement is currently worth.
 
