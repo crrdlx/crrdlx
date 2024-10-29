@@ -64,11 +64,11 @@ Matrix: username @crrdlx:matrix.org on the decentralized the Matrix protocol: ht
 
 Hive: @crrdlx
 
-Join Hive: https://crrdlx.on.fleek.co/hive-vip-ticket.html
+Join Hive: https://crrdlx.vercel.app/hive-vip-ticket.html
 
 X/Twitter: @crrdlx
 
-Discord: username crrdlx The fastest/easiest place to find me is in the LUV-HBIT Discord server at https://discord.gg/K5GvNhcPqR
+Discord: username crrdlx A fast and easy place to find me is in the LUV-HBIT Discord server at https://discord.gg/K5GvNhcPqR
 
 Telegram: username crrdlx
 
