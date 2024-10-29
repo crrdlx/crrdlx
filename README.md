@@ -14,7 +14,7 @@ Here are some examples of my projects:
 
 **Nostr** - My npub is ```npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j``` and I can be seen at places like https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j along with Bitcoin Lightning Network address [crrdlx@getalby.com](https://getalby.com/p/crrdlx)
     
-**Nostr wiki** - Visit https://nostr.on.fleek.co It is a wiki, you can add to or edit.
+**Nostr wiki** - Visit https://nostrwiki.vercell.app It is a wiki, you can add to or edit.
 
 **Ordinals** - I put everything Satoshi wrote on chain as ordinal inscriptions. The words that started Bitcoin and cryptocurrency now live on the blockchain that they created. Links and info at https://peakd.com/bitcoin/@crrdlx/satoshi
 
