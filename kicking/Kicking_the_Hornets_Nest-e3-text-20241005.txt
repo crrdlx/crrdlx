@@ -1,5 +1,4 @@
-
-
+﻿
  _  ___      _    _               _   _          
 | |/ (_) ___| | _(_)_ __   __ _  | |_| |__   ___ 
 | ' /| |/ __| |/ / | '_ \ / _` | | __| '_ \ / _ \
@@ -14,14 +13,6 @@
                                                            
 
 <note> This file looks best using a monospace font. </note>
-
-
-Kicking the Hornet’s Nest
-
-
-The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency
-
-Third edition
 
 
 MMMMMMMMMMMMMMMMMMMN0O0XWMMMMMMMMMMWXOxOWMMMMMMMMMMMMMMMMMMM
@@ -47,26 +38,37 @@ MMMMMMMMMMMMMMMMMMMM0o0MWkclk00Okdo0WMOo0MMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMXkOWMMXo;oOOOo:xNMMW0x0WMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMWKxONMMMMXo:dOxloXMMMMW0dOWMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMN0ONMMMMMMN0dddONMMMMMMWXXWMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNXNWMMMMMMMMMMMMMMMMMMMMMMMMMMM                      
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNXNWMMMMMMMMMMMMMMMMMMMMMMMMMMM     
 
-
-Edited by: crrdlx
-https://hive.blog/@crrdlx/satoshi 
-
-
+Kicking the Hornet’s Nest
+The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency – Third Edition
 
 
 
 
 
-
-Copyright © 2019  Mill Hill Books. All rights reserved.
-Third edition copyright © 2024 Mill Hill Books. All rights reserved.
-Published by Mill Hill Books
-ISBN 978-0-359-32744-7
+Mill Hill Books
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+Kicking the Hornet’s Nest: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency – Third Edition
+
+
+
+Copyright © 2024 Mill Hill Books. All rights reserved.
+
+ISBN 978-1-304-04-053-4
 
 
 
@@ -109,19 +111,15 @@ Two days later, Satoshi Nakamoto disappeared from making further public postings
 Sources:
     • https://satoshi.nakamotoinstitute.org - This was the main resource for this book. Their work and organization is priceless.
     • https://BitcoinTalk.org/ - The forum set up by Satoshi.
+    • https://gwern.net/doc/bitcoin/2008-nakamoto – Wei Dai personal emails.
     • http://www.metzdowd.com/pipermail/cryptography - The Cryptography Mailing List was used by the group generally known as “cypherpunks.” 
     • https://plan99.net/~mike - Personal emails to/from Mike Hearn, publicly shared on the Internet at this site.
     • https://en.bitcoin.it/wiki/Source:Trammell/Nakamoto_emails - Personal emails to/from Dustin Trammell (aka Druid) from January 2009. Also, emails from Trammell’s website:  https://www.dustintrammell.com/s/Satoshi_Nakamoto.zip
     • https://online.wsj.com/public/resources/documents/finneynakamotoemails.pdf - Personal emails to/from Hal Finney, publicly shared on this Wall Street Journal site. 
+    • https://www.bitcoin.com/satoshi-archive/emails/jon-matonis/1/ - Jon Matonis personal email.
     • https://www.coindesk.com/satoshi-nakamoto-hal-finney-emails - “Newly discovered emails” revealed in November, 2020, in a CoinDesk article written by Michael Kapilkov.
     • https://bitcoinmagazine.com/technical/bitcoin-adam-backs-complete-emails-satoshi-nakamoto which references the COPA case file dump at https://www.dropbox.com/scl/fo/4y3gdele4foy15006z8ch/h?rlkey=scs42wew1o3vwfv0nduhc43dm&e=1&dl=0 – Personal emails to/from Adam Back previously unseen publicly prior to the February 2024 COPA case.
-    • https://mmalmi.github.io/satoshi/  - Personal emails to/from Martii Malmi. These were released publicly by Malmi in February 2024 as part of the COPA case.
-
-
-
-
-
-
+    • https://mmalmi.github.io/satoshi/  - Personal emails to/from Martii Malmi. These were released publicly by Malmi in February of 2024 as part of the COPA case.
 
 
 
@@ -139,6 +137,8 @@ I think that a chronological record of Satoshi’s writings is interesting, usef
 
     • crrdlx, editor
 February 24, 2024
+https://hive.blog/@crrdlx/satoshi 
+
 
                    @@@@                 
                 @@@@@@@@@               
@@ -160,16 +160,10 @@ February 24, 2024
 
 
 
-
 This book is available in print at https://lulu.com 
 
 Digital versions (pdf, txt)  can be obtained for free at https://hive.blog/@crrdlx/satoshi Visit this site for all links, digital and print.
-
-
-
-
-
-Notes from the Editor
+Notes from the Editor (written for the First Edition)
 
 Ten years ago, on January 3, 2009, Bitcoin went live. That day, Satoshi Nakamoto generated the first Bitcoin block, which has since come to be known as the “Genesis block.” In the Genesis block, Satoshi encoded the message, “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.” This was likely to both timestamp the block to the outside world (using the title of the article on the front page of the London’s daily The Times), but, more importantly, to offer a comment. The comment gave insight that was both outward toward the financial system and inward toward Satoshi himself. Any article title could have been chosen as a timestamp. This one was clearly meant to convey a message. Satoshi sent the message that he does not favor banks. More likely, he does not like the fractional reserve banking system and the endless creation of fiat currency that coincides with fractional reserve banking. 2008 and 2009, when Bitcoin was born, were the years of rampant “cash injections,” “stimulus packages,” “quantitative easing,” and “too-big-to-fail” bank bailouts. Bitcoin, with its hard-coded 21 million coin limit, would solve the fiat addiction. Infinite paper money would be replaced by finite numbers written in code. 
 
@@ -180,36 +174,28 @@ Since January 2009, some people have placed an almost religious status onto Sato
 Following are all of the public writings of Satoshi Nakamoto, the founder of Bitcoin—at least these are all that I could find. They are arranged in chronological order. Many of the writings are very technical. Some are purely code and will read as jibberish to most of us. I debated whether to include these “writings” or not. But, I wished to have a full account of all of Satoshi’s writings, and so, even the code was included. Though unwieldly to read, even they convey a message—Satoshi was focused, businesslike, and pragmatic in his dealings and work. Since many of the writings are in response to others’ comments, and for the sake of revealing the context of Satoshi’s words, there are writings by other people included here as well. However, any non-Satoshi writings are italicized. Satoshi’s writings can be identified by the fact that they are not italicized.
 
 
-Satoshi’s words are not italized. They look like this. 
+Satoshi’s words are not italized. They look like this.
 
-Words by others are italicized. They look like this. (note: since this is the TXT-VERSION, there are no italics)
+Words by others are italicized. They look like this.
 
 
 Compiling these writings was educational to the editor. It seemed to offer insight into Satoshi Nakamoto. Lessons were learnt regarding Satoshi combing through his words, or, at the least, following were my interpretations:
 
 Satoshi is polite. He said “Thanks” or “Thank you” several times. Often, an exclamation point was included for emphasis. And, he apologizes when appropriate.
 Satoshi is a good teacher. In the earlier phases especially, he patiently and clearly answers questions one-by-one.
-
 Satoshi is a clear communicator. His English, grammar, and syntax are nearly flawless. Although he does, on occasion, dabble in textese—he throws in a WTF and an AFAIK—nearly all of his communications are in clear, declarative, complete and correct sentences. 
-
 Satoshi is a fantastic thinker. He is able to think with beautiful logic. He is able to think abstractly in concepts via analogies (such as the Gambler’s Ruin problem in the whitepaper). His more formal logic is seen in his code, naturally, but it is also witnessed in his writings. For example, in a response to theymos, Satoshi simply states, “The premise is false,” then he explains why. As something of an aside, that statement harkens to Ayn Rand’s Atlas Shrugged, where “check your premises” is an ongoing sub-theme in the novel. For anyone unfamiliar with the book, the phrase does two things. First, it’s a reference to Aristotelian logic of non-contradiction—if two things seem to contradict, they actually don’t, one of them is wrong—check your premises. And secondly, the uber-theme of the novel itself is an indictment of government bailouts very similar to the Chancellor’s brink-of-bailout of January 3, 2009. Atlas Shrugged damns governments and powers which purport to know what’s best and act for the people’s best interest, rather than freeing the people to simply act for themselves. I don’t think Satoshi was thinking Atlas Shrugged when he wrote the premise statement to theymos. I believe he was merely thinking clearly. But, the theme of Atlas Shrugged, and the “theme” of Bitcoin, certainly do seem to coincide with those words.
-
 Satoshi likes to double-space after a sentence is complete. This was the standard taught to typing or keyboarding students up until roughly the year 2000. Stylometry, studying a person’s literary quirks in writing, has been a ripe field for pondering the identity of Satoshi Nakamoto. It may be a stretch, but with few clues, this double-space idiosyncrasy has often been noted in places like /r/Bitcoin on Reddit. There has also been discussion about Satoshi’s tendencies toward British spellings of words, such as cheques for checks, neighbours for neighbors, decentralised or formalised with an s rather than a z, or use of the word “bloody.” Some say these British tendencies were for obfuscation—to fake the world. I personally think there is something to the British influence. His British usage reads very organicly and unforced. I interpret that Satoshi indeed had some British-influenced upbringing (e.g., Britain, or Canada or Australia or a British Caribbean island). Like micro-expressions in facial body language, wording, in organic thought or writing, becomes hard-coded. To not release those tendencies would require constant and extreme discipline. Of course, Satoshi just might well have those qualities and fool me right there! Regarding double-spacing, I tend to believe that the double-spacing may well hint at Satoshi’s age…he most likely learned to type when double-spacing after a period was standard. Revolutionary ideas have often come in history from people in their 20s or early 30s, but in this case, that seems too young. Typing this specific way, given the revolutionary thoughts for Bitcoin, and the technical skill acquired and necessary to create the code, as well as the polish in writing, Satoshi was likely not young when working on Bitcoin. Purely speculating, I would guess that he was likely around 40 when the whitepaper came out in 2008…meaning he was likely born around 1968, give-or-take a few years.
-
 Satoshi is a heads-down programmer. Many of the writings here are mundane coder-talk. They are likely cryptic jibberish to nearly everyone. Satoshi does not fiddle with small-talk or niceties. He consistently remains focused and practical. When wished a happy Christmas by Mike Hearn if he celebrates Christmas, Satoshi makes no response either way. He merely proceeds to the task-at-hand.
 
 Satoshi values privacy. This is witnessed in his words—naturally for a cypherpunk—but also in his focused neglect of including anything personal about himself (or herself), such as the Christmas non-comment. It’s worth noting here that since Satoshi Nakamoto is unknown, Satoshi’s sex is unknown. Satoshi may be a man, woman, or group. However, since サトシ is generally a male’s name in Japan, Satoshi is referred to here using singular, male pronouns. 
-
 Satoshi can pack a lot into a few words. His writing style is brief and to-the-point, but not impolite or terse. On the day the whitepaper was revealed, when he writes, “I've been working on a new electronic cash system that's fully peer-to-peer, with no trusted third party,” he could have almost simply stopped right there. 
-
 Satoshi has a practical sense of marketing about him. He understands the importance of a good icon or logo. He understands that slow growth is not necessarily a bad thing. And he gets that there is such a thing as bad publicity (e.g., the WikiLeaks, hornet’s nest comment).
 Despite his focused, logical, business-minded tendencies, there seems to me to be a bit of boyishness about him. This is seldom shown, but it is there, revealed in his writings in rare glints. This leads to a final conclusion… 
-
 Satoshi is human. When he writes to Mike Hearn on Wed, March 9, 2011, “That’s great news!” the guarded wall that normally shields Satoshi-the-person seems to quaver. It hints at a real person, with emotions, excitement, and an almost childlike glee in what he’s doing, lying somewhere behind the façade of Satoshi Nakamoto. He’s kicking the hornet’s nest himself, and he knows it. And, when just two days before withdrawing from public posts he writes, “That means a lot coming from you, Hal.  Thanks.” I hear a deep sigh after sending that comment. 
 
     • Editor
 January 3, 2019
-
 
 
 
@@ -253,11 +239,6 @@ EBjAnoZeyUihPrcAniVWl5M44RuGctJe+IMNX4eVkC08AJ9v7cXsp5uDdQNo8q3R
 -----END PGP PUBLIC KEY BLOCK-----
 
 
-
-
-
-
-
 The Bitcoin Whitepaper
 Source: https://bitcoin.org/bitcoin.pdf
 
@@ -272,6 +253,7 @@ A purely peer-to-peer version of electronic cash would allow online payments to 
 Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.
 
 What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.
+
 
 MMMMMWWNNNNNNNNNNNNWMMMWNNNNNNNNNNNNNWMMMWNNNNNNNNNXNNWMMMMM
 MMMMMWXK000000KXNXXWMMWXK0000000KXNXXWMMWXK000000KXXXXNMMMMM
@@ -291,6 +273,7 @@ MMMMMMWWNXK0KKKNWNWMMMMWNNK00000KXNNWMMMMWNNK00000KNNWMMMMMM
 MMMMMMWWNNXXXXXNNWWMMMMWNNXXXXXXXXNNWMMMMMWNXXXXXXXNNWMMMMMM
 MMMMMMMMMMMMWMMMWMMMMMMMMMMMMWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
+
 2. Transactions
 We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.
 
@@ -299,6 +282,7 @@ We need a way for the payee to know that the previous owners did not sign any ea
 
 3. Timestamp Server
 The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post[2-5]. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+
 
 MMMMMWXXWXK0KKKNWXXWMMWXXNK0000KKXNXXWMMWXKNX000KKXNXKNMMMMM
 MMMMWNKXXXKKXKKXNXKNWWNKKXK0KKKKKXNXKNWWWXKXKKKKKKXXXXNWMMMM
@@ -311,9 +295,11 @@ MMMMMWXKXXKKKKKXNXXWMMWXKXNKKKKKXNNXNWMMWXKXXK0KKKXNNXNMMMMM
 MMMMMNK0KXKXXXXXXXXWWNNK0KXXXXXXXXXXXWWNNX0KXXKKXXXXXXWMMMMM
 MMMMWWWWWWWWWWWWWNWWNNWWWWWNWWNNNNWWWWNNWWWWNNWWWWWWWWWWMMMM
 
+
 4. Proof-of-Work
 To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash[6], rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
 For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.
+
 
 MMMMMWXXWXK0KKKNWXXWMMWXXNK0000KKXNXXWMMWXKNX000KKXNXKNMMMMM
 MMMMWNKXXXKKXKKXNXKNWWNKKXK0KKKKKXNXKNWWWXKXKKKKKKXXXXNWMMMM
@@ -325,6 +311,7 @@ MMMMMWX0XXKKKXXXNXXWMMWX0XNXXXXXXNNNXWMMWK0KXKKKXXXNNXNMMMMM
 MMMMMWXKXXKKKKKXNXXWMMWXKXNKKKKKXNNXNWMMWXKXXK0KKKXNNXNMMMMM
 MMMMMNK0KXKXXXXXXXXWWNNK0KXXXXXXXXXXXWWNNX0KXXKKXXXXXXWMMMMM
 MMMMWWWWWWWWWWWWWNWWNNWWWWWNWWNNNNWWWWNNWWWWNNWWWWWWWWWWMMMM
+
 
 The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains. To modify a past block, an attacker would have to redo the proof-of-work of the block and all blocks after it and then catch up with and surpass the work of the honest nodes. We will show later that the probability of a slower attacker catching up diminishes exponentially as subsequent blocks are added.
 To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they're generated too fast, the difficulty increases.
@@ -366,10 +353,12 @@ MMMMMMWWNXK0KKKNWNWMMMMWNNK00000KXNNWMMMMWNNK00000KNNWMMMMMM
 MMMMMMWWNNXXXXXNNWWMMMMWNNXXXXXXXXNNWMMMMMWNXXXXXXXNNWMMMMMM
 MMMMMMMMMMMMWMMMWMMMMMMMMMMMMWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
+
 A block header with no transactions would be about 80 bytes. If we suppose blocks are generated every 10 minutes, 80 bytes * 6 * 24 * 365 = 4.2MB per year. With computer systems typically selling with 2GB of RAM as of 2008, and Moore's Law predicting current growth of 1.2GB per year, storage should not be a problem even if the block headers must be kept in memory.
 
 8. Simplified Payment Verification
 It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.
+
 
 MMMMMWWNNNNNNNNNNNNWMMMWNNNNNNNNNNNNNWMMMWNNNNNNNNNXNNWMMMMM
 MMMMMWXK000000KXNXXWMMWXK0000000KXNXXWMMWXK000000KXXXXNMMMMM
@@ -389,10 +378,12 @@ MMMMMMWWNXK0KKKNWNWMMMMWNNK00000KXNNWMMMMWNNK00000KNNWMMMMMM
 MMMMMMWWNNXXXXXNNWWMMMMWNNXXXXXXXXNNWMMMMMWNXXXXXXXNNWMMMMMM
 MMMMMMMMMMMMWMMMWMMMMMMMMMMMMWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
+
 As such, the verification is reliable as long as honest nodes control the network, but is more vulnerable if the network is overpowered by an attacker. While network nodes can verify transactions for themselves, the simplified method can be fooled by an attacker's fabricated transactions for as long as the attacker can continue to overpower the network. One strategy to protect against this would be to accept alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. Businesses that receive frequent payments will probably still want to run their own nodes for more independent security and quicker verification.
 
 9. Combining and Splitting Value
 Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.
+
 
 MMMMMWXXXKKKKKXNNXXWMMWXKKK00000KXNXXWMMWXKXK000KKXNXXNMMMMM
 MMMMMWXXWXK0KKKNWXXWMMWXXNK0000KKXNXXWMMWXKNX000KKXNXKNMMMMM
@@ -406,10 +397,12 @@ MMMMMWXKXXKKKKKXNXXWMMWXKXNKKKKKXNNXNWMMWXKXXK0KKKXNNXNMMMMM
 MMMMMNK0KXKXXXXXXXXWWNNK0KXXXXXXXXXXXWWNNX0KXXKKXXXXXXWMMMMM
 MMMMWWWWWWWWWWWWWNWWNNWWWWWNWWNNNNWWWWNNWWWWNNWWWWWWWWWWMMMM
 
+
 It should be noted that fan-out, where a transaction depends on several transactions, and those transactions depend on many more, is not a problem here. There is never the need to extract a complete standalone copy of a transaction's history.
 
 10. Privacy
 The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+
 
 MMMMMWWNNNNNNNNNNNNWMMMWNNNNNNNNNNNNNWMMMWNNNNNNNNNXNNWMMMMM
 MMMMMWXK000000KXNXXWMMWXK0000000KXNXXWMMWXK000000KXXXXNMMMMM
@@ -428,6 +421,7 @@ MMMMMMWWWNNXXNNNWNWWMMMWNNNXXXXXXNNNNWWMMWNNNXXXXXNWNNWMMMMM
 MMMMMMWWNXK0KKKNWNWMMMMWNNK00000KXNNWMMMMWNNK00000KNNWMMMMMM
 MMMMMMWWNNXXXXXNNWWMMMMWNNXXXXXXXXNNWMMMMMWNXXXXXXXNNWMMMMMM
 MMMMMMMMMMMMWMMMWMMMMMMMMMMMMWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
 
 As an additional firewall, a new key pair should be used for each transaction to keep them from being linked to a common owner. Some linking is still unavoidable with multi-input transactions, which necessarily reveal that their inputs were owned by the same owner. The risk is that if the owner of a key is revealed, linking could reveal other transactions that belonged to the same owner.
 
@@ -634,6 +628,59 @@ http://www.hashcash.org/papers/hashcash.pdf, 2002.
 >>>
 >>> satoshi@anonymousspeech.com
 >>>
+
+
+Personal email – Wei Dai
+
+Editor’s note: This was a personal email (one of two that are public) between Satoshi and Wei Dai. These emails were excluded from NakamotoInstitute.org, so, I initially questioned their authenticity. I reached out to NakamotoInstitute.org and received a reply saying the reason for exclusion was a policy made in 2014. Personal emails would not be included so as to avoid security threats or inadvertent doxing.
+
+This being a personal email, and since it is publicly “in the wild” on the Internet, either Satoshi or Wei Dai would have had to release it. I sought out such a release. Wei Dai does not seem to have released it on his personal website or via social media, however he does appear to have given the okay for the emails to be published on gwern.net (see https://gwern.net/doc/bitcoin/2008-nakamoto). 
+
+Evidence to support this “release” is that https://weidai.com  suggests using lesswrong.com to ask public AMA questions. On lesswrong.com, in March of 2014, gwern asked Wei Dai about emails and whether the emails could be placed on gwern.net and Wei Dai gave the okay (see https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#hGuDqrpRTYiBsRB5Y). The “Wei Dai emails” still appear on gwern.net at the link above. 
+
+In researching this, the editor wrote a blog post outlining the above. The conclusion received a “like” by Wei Dai (user @weidai11 on X). That “like” was understood as an affirmation by Dai that the emails were indeed released by Wei Dai. (A overview of my research is at https://hive.blog/bitcoin/@crrdlx/satoshi-emails-part-3) 
+
+From: Satoshi Nakamoto <satoshi@anonymousspeech.com>
+Sent: Friday, August 22, 2008 4:38 PM
+To: Wei Dai <weidai@ibiblio.org>
+Cc: Satoshi Nakamoto <satoshi@anonymousspeech.com>
+Subject: Citation of your b-money page
+
+I was very interested to read your b-money page.  I'm getting ready to
+release a paper that expands on your ideas into a complete working system.
+Adam Back (hashcash.org) noticed the similarities and pointed me to your
+site.
+
+I need to find out the year of publication of your b-money page for the
+citation in my paper.  It'll look like:
+[1] W. Dai, "b-money," http://www.weidai.com/bmoney.txt, (2006?).
+
+You can download a pre-release draft at
+http://www.upload.ae/file/6157/ecash-pdf.html  Feel free to forward it to
+anyone else you think would be interested.
+
+Title: Electronic Cash Without a Trusted Third Party
+
+Abstract: A purely peer-to-peer version of electronic cash would allow
+online payments to be sent directly from one party to another without the
+burdens of going through a financial institution.  Digital signatures
+offer part of the solution, but the main benefits are lost if a trusted
+party is still required to prevent double-spending.  We propose a solution
+to the double-spending problem using a peer-to-peer network.  The network
+timestamps transactions by hashing them into an ongoing chain of
+hash-based proof-of-work, forming a record that cannot be changed without
+redoing the proof-of-work.  The longest chain not only serves as proof of
+the sequence of events witnessed, but proof that it came from the largest
+pool of CPU power.  As long as honest nodes control the most CPU power on
+the network, they can generate the longest chain and outpace any
+attackers.  The network itself requires minimal structure.  Messages are
+broadcasted on a best effort basis, and nodes can leave and rejoin the
+network at will, accepting the longest proof-of-work chain as proof of
+what happened while they were gone.
+
+Satoshi
+
+
 
 Cryptography Mailing List
 Bitcoin P2P e-cash paper
@@ -1249,7 +1296,7 @@ sourcecode is coming soon. I sent you the main files.
 Satoshi Nakamoto
 
 
-Personal email
+Personal email – Hal Finney
 Editor’s note: In late November of 2020, three previously unknown emails emerged which are believed to have been correspondence between Satoshi Nakamoto and Hal Finney. The emails were dated November 19, 2008 (Finney to Nakamoto); January 8, 2009 (Nakamoto to Finney); and January 9, 2009 (Nakamoto to Finney). This places them a couple of weeks after the Bitcoin Whitepaper’s release and a week or so after the Bitcoin “Genesis Block” was mined. Thus, they were very early in Bitcoin history.
 In an article by professor Michael Kapilkov, CoinDesk.com reported on the emails and explained their validity (see https://www.coindesk.com/satoshi-nakamoto-hal-finney-emails). In short, CoinDesk reported that the emails had been on Hal Finney’s computer and that they had been previously shared with reporter Nathaniel Popper during research for his book titled “Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money” published in 2016, two years after Finney’s death. In the article, CoinDesk stated that Hal Finney’s widow, Fran Finney, had been contacted concerning the authenticity of the emails. The CoinDesk article explains that she corroborated that the emails had indeed been on Hal’s computer and that they had indeed been shared with Popper for his research. The CoinDesk article also stated that Popper, in turn, had shared the three previously unseen emails with Kapilkov, who then brought the emails to light in the CoinDesk article. 
 Although the November 19 email was not written by Satoshi, it is included here for context.
@@ -1360,7 +1407,7 @@ Satoshi Nakamoto
 
 
 
-Personal email
+Personal email – Hal Finney
 Editor’s note: This is the second of the three previously unknown emails that emerged in November 2020. The emails were dated November 19, 2008 (Finney to Nakamoto); January 8, 2009 (Nakamoto to Finney); and January 9, 2009 (Nakamoto to Finney). 
 
 From satoshi@vistomail.com  Thu Jan  8 20:54:55 2009
@@ -1394,7 +1441,7 @@ Satoshi
 
 
 
-Personal email
+Personal email – Hal Finney
 Editor’s note: This is the third of the three previously unknown emails that emerged in November 2020. The emails were dated November 19, 2008 (Finney to Nakamoto); January 8, 2009 (Nakamoto to Finney); and January 9, 2009 (Nakamoto to Finney). 
 
 From satoshi@vistomail.com  Fri Jan  9 08:08:37 2009
@@ -1427,6 +1474,43 @@ Sure thing. If you have any questions, feel free.
 >
 >Hal
 >
+
+
+
+
+Personal email – Wei Dai
+
+Editor’s note: this is the second of two Satoshi-to-Wei Dai emails. The first was from August 22, 2008 when Satoshi sought to clarify the citation of Dai’s b-money paper.
+
+From: Satoshi Nakamoto
+Sent: Saturday, January 10, 2009 11:17 AM
+To: weidai@weidai.com
+Subject: Re: Citation of your b-money page
+
+I wanted to let you know, I just released the full implementation of the
+paper I sent you a few months ago, Bitcoin v0.1.  Details, download and
+screenshots are at www.bitcoin.org
+
+I think it achieves nearly all the goals you set out to solve in your
+b-money paper.
+
+The system is entirely decentralized, without any server or trusted
+parties.  The network infrastructure can support a full range of escrow
+transactions and contracts, but for now the focus is on the basics of
+money and transactions.
+
+There was a discussion of the design on the Cryptography mailing list.
+Hal Finney gave a good high-level overview:
+| One thing I might mention is that in many ways bitcoin is two independent
+| ideas: a way of solving the kinds of problems James lists here, of
+| creating a globally consistent but decentralized database; and then using
+| it for a system similar to Wei Dai's b-money (which is referenced in the
+| paper) but transaction/coin based rather than account based. Solving the
+| global, massively decentralized database problem is arguably the harder
+| part, as James emphasizes. The use of proof-of-work as a tool for this
+| purpose is a novel idea well worth further review IMO.
+
+Satoshi
 
 
 
@@ -6354,8 +6438,7 @@ mmalmi@cc.hut.fi wrote:
 > 
 
 
-Editor’s note
-Satoshi’s first post on the new https://bitcointalk.org forum was a brief welcome message with the following timestamp: November 22, 2009, 06:04:28 PM. After this message board was set up, Satoshi began using it frequently. This is witnessed in the records that follow.
+Editor’s note: Satoshi’s first post on the new https://bitcointalk.org forum was a brief welcome message with the following timestamp: November 22, 2009, 06:04:28 PM. After this message board was set up, Satoshi began using it frequently. This is witnessed in the records that follow.
 
 Satoshi’s first bitcointalk message can be read at https://bitcointalk.org/index.php?topic=5.msg28#msg28 
 
@@ -8111,7 +8194,7 @@ I couldn't get wxWidgets 2.8.9 to compile on Karmic 64-bit either.
 
 I have been compiling the latest SVN on Karmic 64-bit with wxWidgets 2.9.0, which compiles fine on 64-bit.  Read build-unix.txt and use the given ../configure parameters on wxWidgets so you can use the makefile.unix.wx2.9 as supplied.  (--enable-debug --disable-shared --enable-monolithic)
 
-  -- fixed
+There's one cosmetic bug with 2.9.0 I still need to fix where the status number display is bunched up for some reason.  -- fixed
 
 The download link on the homepage is to the sourceforge tar.gz archive which contains the 32-bit binary and the 0.2.0 sources, which were not yet buildable on 64-bit at the time.
 
@@ -8858,6 +8941,39 @@ Try this irc.cpp.  debug.log may grow rapidly so be ready to kill it.
 mmalmi@cc.hut.fi wrote:
 > debug.log attached
 > 
+
+
+
+Personal email - Jon Matonis
+
+Editor’s note: this email is questioned by some in the bitcoin community as truly being from Satoshi. It is listed on bitcoin.com (see https://www.bitcoin.com/satoshi-archive/emails/) and has been listed on NakamotoStudies.com (see https://web.archive.org/web/20200119190105/https://nakamotostudies.org/emails/satoshi-to-john-matonis). Both of those websites are Bitcoin Cash (BCH)-friendly and not BTC-friendly. Hence, the skepticism by bitcoiners (BTC). 
+
+Additionally, this email was excluded on NakamotoInstitute.org. The reason the editor received from NakamotoInstitute as to the reason for this exclusion, can be summed as follows: NakamotoInstitute made a 2014 policy decision to exclude personal emails which might pose possible security threats to the persons or inadvertent doxing.
+
+Being a personal email, and since the email is now “in the wild” on the Internet, either Satoshi or Matonis would have had to release it at some point. Assuming Satoshi did not release the email, it is unclear as to when Matonis did. Typically, as with most of the other personal emails in this book, the recipient announces the public release either on their own website or social media. In my research, a Matonis-run web page or media post or the like announcing a release of this email cannot be found. The email simply seemed to appear in 2020 in the sites above. 
+
+Also, Matonis wrote a Medium post in 2016 where he discussed his opinion on the identity of Satoshi Nakamoto (see https://jonmatonis.medium.com/how-i-met-satoshi-96e85727dc5a). His view in the article likely adds to skepticism. I have reached out to Matonis regarding this email, specifically on how it came to be released, but at present, I have not received a response.
+
+Lastly, I debated including this email here in “Kicking” or not. Finally, I obviously decided to include it, along with the information above, and thus to allow the readers to judge for themselves as to its legitimacy. 
+
+From: Satoshi Nakamoto <satoshin@gmx.com>
+Subject: Re: Introduction
+To: “Jon Matonis” <matonis@yahoo.com>
+Date: Thursday, March 4, 2010, 9:55 PM
+
+Nice blog. That’s the first I’ve seen that focuses on this subject. I wish there was something like that when I originally researched this three years ago, there was scant to nothing back then. I think I’ll be a regular reader.
+
+Bitcoin would be right up your alley. Its advantage is that it’s P2P. There isn’t a central mint or company running it. As long as there are users, it survives.
+
+I’m sure you’ve already found the FAQ and Forum at bitcoin.org.
+
+The logo is here:
+
+http://www.bitcoin.o….php?topic=64.0
+
+Was there anything particular you were interested in?
+
+
 
 
 Martii Malmi (AKA Sirius) “COPA trial” email #185
@@ -14314,7 +14430,7 @@ BitcoinTalk
 Re: Running on a port other than 8333
 2010-09-12 17:40:20 UTC -  - 
 Quote from: lachesis on August 10, 2010, 03:24:55 PM
-It does not -- did my own tests.
+Also, does Bitcoin open the BerkeleyDB as exclusive, precluding the need for a file lock?It does not -- did my own tests.
 Is there a way to open BerkeleyDB exclusive?
 
 DB_PRIVATE is the worst of both worlds.  DB_PRIVATE is not exclusive, but it does make it get screwed up if another process tries to access it at the same time.
@@ -17151,30 +17267,12 @@ Editor’s note: this comment was apparently made in response to a March 6, 2014
 
 Kicking the Hornet’s Nest: The Complete Writings, Emails, and Forum Posts of Satoshi Nakamoto, the Founder of Bitcoin and Cryptocurrency
 
-MMMMMMMMMMMMMMMMMMMN0O0XWMMMMMMMMMMWXOxOWMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMWMMWX00OO0NMMMMMMN0OO0KNMMWNNMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMNOkKWWWMMN0k0XNXX0k0NMMWWNOdkKWMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMXOxxkXMMMW0odxddokWMMMKdox0WMMMMMMMMMMMWWMMM
-MNXXKXXXNWWMMMMMMMNkcdXMM0ld0KK0dl0MMNdl0WMMMMMMWNKKKK00O00X
-X0Okxk0XX0OO0KXWMMMN0ocdOk:;llllcckXOo:kWMMWNKOOkkkO00OO0K0K
-NK0KKK00KX0xdddkO0XNWW0o;,,,;:;;;;',cdKNN0kxxddOKXNNXK0KXXXW
-MWXKKNKO0XN0OOOOOxxxkkkko'.,clc:'..,xkxddddkOOO00KKKKKKKXNMM
-MMMWNXXXKKK000KK0kxkxdloo, .:c:;...:doodxkkkOOkk00Ok0XNWMMMM
-MMMMMMWN00K000KKOO00kdllo:..;cc;..'ldoldOOkk00xk0KKXWMMMMMMM
-MMMMMMMMMNXXNXK0OO0Od::lc;'.......'cl:,cO0O0KXXXNWWMMMMMMMMM
-MMMMMMMMMMMMWWNNNNKxlcOXKk:.',''..;xXKo:o0NWWMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMWNKOkO0XMWKc.........c0NNKkkkO0XWMMMMMMMMMMMMM
-MMMMMMMMMMMMMMXOO0XWMWKx;.........'.'l0WMWXKOKWMMMMMMMMMMMMM
-MMMMMMMMMMMMMMWWWMMMWOldc''.......';ooc0MMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMNlc0dcxxd:':xO0xkkckWMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMXllKklox0K00KkooOklkNMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMNd:kkooxKNNNKxcoOkckWMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMNddK0lcdkKKK0xokKXdxWMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMM0o0MWkclk00Okdo0WMOo0MMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMXkOWMMXo;oOOOo:xNMMW0x0WMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMWKxONMMMMXo:dOxloXMMMMW0dOWMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMN0ONMMMMMMN0dddONMMMMMMWXXWMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMNXNWMMMMMMMMMMMMMMMMMMMMMMMMMMM   
+
+
+
+
+
 
 All formats and links are available at https://hive.blog/@crrdlx/satoshi 
+
 
