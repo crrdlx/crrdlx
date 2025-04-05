@@ -46,7 +46,7 @@ The **HiveWiki** - https://hivewiki.vercel.app is just what is sounds like...a w
 
 **Wusang:Isle of Blaq** - [Wusang](https://peakd.com/@wusang) is the Worlds Ultra Simple Asset Numbers Game. It runs on Hive, gives away tokens, and has stories of pirates and ghosts. There is also a hidden treasure of ecash sats waiting to be found.
 
-For **Hive-Engine** tokens, there's the [HEconverter](https://heconverter.on.fleek.co/) to jump between prices/values of H-E tokens, Hive, and USD. There's also the [Tip Token Calculator](https://hivetiptokens.on.fleek.co/) which shows how much a Hive tip/engagement is currently worth.
+For **Hive-Engine** tokens, there's the [HEconverter](https://heconverter.vercel.app/) to jump between prices/values of H-E tokens, Hive, and USD. There's also the [Tip Token Calculator](https://hivetiptokens.vercel.app/) which shows how much a Hive tip/engagement is currently worth.
 
 There's a bunch more stuff I made. A lot is just silly or funny, but that's okay in my view. Plus, it's all 100% original. You can see much of what I've made at https://nefties.com/stuff
 
