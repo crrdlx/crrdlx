@@ -16,6 +16,8 @@ Here are some examples of my projects:
     
 **Nostr wiki** - Visit https://nostrwiki.vercell.app It is a wiki, you can add to or edit.
 
+**BlockRoss** - https://BlockRoss.vercel.app uses the bitcoin blockchain ti randomly create art. In homage to Bob Ross.
+
 **Ordinals** - I put everything Satoshi wrote on chain as ordinal inscriptions. The words that started Bitcoin and cryptocurrency now live on the blockchain that they created. Links and info at https://peakd.com/bitcoin/@crrdlx/satoshi
 
 The **Bitkenstan** web or NFTcomic about Bitcoin, crypto, blockchain, and life. On the web: https://bitkenstan.vercel.app, on Hive: https://hive.blog/@bitkenstan
