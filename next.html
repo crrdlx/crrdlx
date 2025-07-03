@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>crrdlx</title>
+  <style>
+    :root {
+      --bg: #fefefe;
+      --fg: #222;
+      --card-bg: #fff;
+      --card-border: #eee;
+      --link: #2e8181;
+      --accent: #ff8c00;
+    }
+    [data-theme="dark"] {
+      --bg: #181a1b;
+      --fg: #e0e0e0;
+      --card-bg: #232526;
+      --card-border: #333;
+      --link: #7fdfff;
+      --accent: #ffa94d;
+    }
+    html, body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem 1rem 1.5rem 1rem;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+    .intro {
+      margin-bottom: 2.5rem;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.2rem 1rem 1rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 180px;
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.02);
+      transition: background 0.2s, border 0.2s;
+    }
+    .card img {
+      max-width: 80px;
+      max-height: 80px;
+      margin-bottom: 0.7rem;
+      border-radius: 8px;
+      background: #fff;
+      object-fit: contain;
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
+    }
+    .card-title {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 0.3em;
+      color: var(--link);
+      text-align: center;
+    }
+    .card-desc {
+      font-size: 0.98em;
+      text-align: center;
+      color: var(--fg);
+      margin-bottom: 0.5em;
+    }
+    .card a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .toggle-dark {
+      background: none;
+      border: 1px solid var(--card-border);
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3em;
+      color: var(--fg);
+      transition: background 0.2s, border 0.2s;
+    }
+    .toggle-dark:focus {
+      outline: 2px solid var(--accent);
+    }
+    footer {
+      text-align: center;
+      margin-top: 2.5rem;
+      color: #888;
+      font-size: 0.98em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div style="display:flex;align-items:center;gap:0.7em;">
+        <img src="images/crrdlx-8bit-white-bg.jpg" alt="crrdlx logo" style="width:38px;height:38px;border-radius:8px;">
+        <span style="font-size:1.5em;font-weight:bold;color:var(--link);">crrdlx</span>
+      </div>
+      <button class="toggle-dark" id="darkToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+    </header>
+    <div class="intro">
+      Hi 👋 I'm CR (crrdlx). I build hobby projects about Bitcoin, Hive, Nostr, NFTs, and more. I like to keep things simple, open, and fun. Explore my projects below!
+    </div>
+    <section class="projects">
+      <div class="card">
+        <a href="bitcoinbowl/index.html">
+          <img src="bitcoinbowl/images/bitcoin.png" alt="Bitcoin Bowl">
+          <div class="card-title">Bitcoin Bowl</div>
+        </a>
+        <div class="card-desc">A playful Bitcoin project with games, images, and more.</div>
+      </div>
+      <div class="card">
+        <a href="ecashsound/index.html">
+          <img src="ecashsound/ecash-test.png" alt="ecash by sound">
+          <div class="card-title">ecash by sound</div>
+        </a>
+        <div class="card-desc">Send ecash audibly, visually, or digitally. Experiments with sound and sats.</div>
+      </div>
+      <div class="card">
+        <a href="hive/hodlsong.html">
+          <img src="indexpure/img/abacus.png" alt="Hive">
+          <div class="card-title">Hive Projects</div>
+        </a>
+        <div class="card-desc">Hive blockchain tools, tokens, and the Hodl Song.</div>
+      </div>
+      <div class="card">
+        <a href="indexpure/index.html">
+          <img src="indexpure/img/icon_120.png" alt="indexpure">
+          <div class="card-title">IndexPure</div>
+        </a>
+        <div class="card-desc">A pure, simple web app template and playground.</div>
+      </div>
+      <div class="card">
+        <a href="kicking/index.html">
+          <img src="kicking/kicking_cover_200.png" alt="Kicking the Hornet's Nest">
+          <div class="card-title">Kicking the Hornet's Nest</div>
+        </a>
+        <div class="card-desc">The complete writings of Satoshi Nakamoto, in book and digital form.</div>
+      </div>
+      <div class="card">
+        <a href="luvstore/index.html">
+          <img src="luvstore/images/wax-message-button.png" alt="LUVstore">
+          <div class="card-title">LUVstore</div>
+        </a>
+        <div class="card-desc">The official shop for LUVshares on Hive.</div>
+      </div>
+      <div class="card">
+        <a href="puppy/index.html">
+          <img src="images/puppy250.jpg" alt="Christmas Puppy">
+          <div class="card-title">Christmas Puppy</div>
+        </a>
+        <div class="card-desc">A fun, musical holiday project. Woof!</div>
+      </div>
+      <div class="card">
+        <a href="archive/0.1.0-dmw-index.html">
+          <img src="indexpure/img/starburst.png" alt="Archive">
+          <div class="card-title">Archive</div>
+        </a>
+        <div class="card-desc">Older or experimental projects and pages.</div>
+      </div>
+    </section>
+    <footer>
+      &copy; 2024 crrdlx &mdash; <a href="https://linktr.ee/crrdlx" style="color:var(--link);text-decoration:none;">All links</a>
+    </footer>
+  </div>
+  <script>
+    // Dark mode toggle
+    const toggle = document.getElementById('darkToggle');
+    const setTheme = (theme) => {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      toggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+    };
+    toggle.onclick = () => {
+      const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      setTheme(current);
+    };
+    // On load, set theme from localStorage or system
+    (function() {
+      const saved = localStorage.getItem('theme');
+      if (saved) setTheme(saved);
+      else if (window.matchMedia('(prefers-color-scheme: dark)').matches) setTheme('dark');
+      else setTheme('light');
+    })();
+  </script>
+</body>
+</html> 
