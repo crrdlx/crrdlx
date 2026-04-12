@@ -174,7 +174,7 @@ th {
 .header h1 {
   margin: 0;
 }
-.header tr td:last-child {
+.header tbody tr:not(:first-child) td:last-child {
   text-align: right;
 }
 
