@@ -461,3 +461,89 @@ label input {
 .debug-toggle-label {
   text-align: right;
 }
+
+/* Interactive Npub Badge */
+.npub-container {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background: var(--background-color-alt);
+  color: var(--text-color);
+  border: var(--border-thickness) solid var(--text-color);
+  padding: 2px 8px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.9em;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.npub-container:hover {
+  background: var(--text-color);
+  color: var(--background-color);
+}
+
+.npub-container:active {
+  transform: translate(2px, 2px);
+}
+
+.npub-container .npub-truncated {
+  font-family: inherit;
+}
+
+.npub-container::after {
+  content: "📋";
+  margin-left: 8px;
+  font-size: 0.85em;
+}
+
+/* Custom Monospace Tooltip */
+.npub-container .npub-tooltip {
+  visibility: hidden;
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background-color: var(--text-color);
+  color: var(--background-color);
+  border: var(--border-thickness) solid var(--text-color);
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  z-index: 1000;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tooltip Arrow */
+.npub-container .npub-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--text-color) transparent transparent transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  .npub-container .npub-tooltip {
+    border-color: var(--background-color-alt);
+  }
+}
+
+.npub-container:hover .npub-tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Copied Feedback State */
+.npub-container.copied::after {
+  content: "✅";
+}

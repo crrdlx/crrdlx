@@ -114,6 +114,89 @@
         tr:nth-child(even) {
             background-color: #dddddd;
         }
+
+        /* Interactive Npub Badge */
+        .npub-container {
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+            background: #eaeaea;
+            color: #222;
+            border: 1px solid #999;
+            padding: 2px 8px;
+            font-family: Consolas, Menlo, Monaco, monospace;
+            font-size: 0.9em;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease;
+            vertical-align: middle;
+            text-decoration: none;
+            border-radius: 4px;
+            line-height: normal;
+        }
+
+        .npub-container:hover {
+            background: #222;
+            color: #fff;
+            border-color: #222;
+        }
+
+        .npub-container:active {
+            transform: translateY(1px);
+        }
+
+        .npub-container .npub-truncated {
+            font-family: inherit;
+        }
+
+        .npub-container::after {
+            content: "📋";
+            margin-left: 8px;
+            font-size: 0.85em;
+        }
+
+        /* Custom Monospace Tooltip */
+        .npub-container .npub-tooltip {
+            visibility: hidden;
+            position: absolute;
+            bottom: calc(100% + 10px);
+            left: 50%;
+            transform: translateX(-50%) translateY(4px);
+            background-color: #222;
+            color: #fff;
+            border: 1px solid #222;
+            padding: 4px 10px;
+            font-size: 0.75rem;
+            white-space: nowrap;
+            opacity: 0;
+            z-index: 1000;
+            transition: opacity 0.15s ease, transform 0.15s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+
+        /* Tooltip Arrow */
+        .npub-container .npub-tooltip::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #222 transparent transparent transparent;
+        }
+
+        .npub-container:hover .npub-tooltip {
+            visibility: visible;
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        /* Copied Feedback State */
+        .npub-container.copied::after {
+            content: "✅";
+        }
     </style>
 </head>
 
@@ -224,7 +307,7 @@
     <p>I can be contacted at:</p>
     <ul>
       <li>email: crrdlx@protonmail.com</li>
-      <li>Nostr: npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j <a href="https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j">view my profile</a>. My nostr account goes along with my Bitcoin Lightning Network address crrdlx@coinos.io</li>
+      <li>Nostr: <span class="npub-container" data-npub="npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j"><span class="npub-truncated">npub1qpduf...qza082j</span><span class="npub-tooltip">Copy npub1qpduf...qza082j</span></span> <a href="https://snort.social/p/npub1qpdufhjpel94srm3ett2azgf49m9dp3n5nm2j0rt0l2mlmc3ux3qza082j">view my profile</a>. My nostr account goes along with my Bitcoin Lightning Network address crrdlx@coinos.io</li>
       <li>X/Twitter: @crrdlx</li>
       <li>Telegram: username crrdlx</li>
       <li>Hive: @crrdlx</li>
@@ -272,5 +355,40 @@ crrdlx
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
     <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12533288/0/21fc2023/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
     <!-- End of Statcounter Code -->
+    <script type="text/javascript">
+    // Click-to-copy functionality for npub badges
+    function initNpubCopy() {
+      const npubContainers = document.querySelectorAll('.npub-container');
+      npubContainers.forEach(container => {
+        container.addEventListener('click', async (e) => {
+          e.preventDefault();
+          const npub = container.getAttribute('data-npub');
+          const tooltip = container.querySelector('.npub-tooltip');
+          
+          try {
+            await navigator.clipboard.writeText(npub);
+            if (tooltip) {
+              const originalText = tooltip.innerText;
+              tooltip.innerText = 'Copied!';
+              container.classList.add('copied');
+              
+              setTimeout(() => {
+                tooltip.innerText = originalText;
+                container.classList.remove('copied');
+              }, 2000);
+            }
+          } catch (err) {
+            console.error('Failed to copy npub: ', err);
+          }
+        });
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initNpubCopy);
+    } else {
+      initNpubCopy();
+    }
+    </script>
 </body>
 </html>

@@ -114,7 +114,46 @@ function gridCellDimensions() {
   
   const debugToggle = document.querySelector(".debug-toggle");
   function onDebugToggle() {
-    document.body.classList.toggle("debug", debugToggle.checked);
+    if (debugToggle) {
+      document.body.classList.toggle("debug", debugToggle.checked);
+    }
   }
-  debugToggle.addEventListener("change", onDebugToggle);
-  onDebugToggle();
+  if (debugToggle) {
+    debugToggle.addEventListener("change", onDebugToggle);
+    onDebugToggle();
+  }
+
+// Click-to-copy functionality for npub badges
+function initNpubCopy() {
+  const npubContainers = document.querySelectorAll('.npub-container');
+  npubContainers.forEach(container => {
+    container.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const npub = container.getAttribute('data-npub');
+      const tooltip = container.querySelector('.npub-tooltip');
+      
+      try {
+        await navigator.clipboard.writeText(npub);
+        if (tooltip) {
+          const originalText = tooltip.innerText;
+          tooltip.innerText = 'Copied!';
+          container.classList.add('copied');
+          
+          setTimeout(() => {
+            tooltip.innerText = originalText;
+            container.classList.remove('copied');
+          }, 2000);
+        }
+      } catch (err) {
+        console.error('Failed to copy npub: ', err);
+      }
+    });
+  });
+}
+
+// Initialise copy feature
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initNpubCopy);
+} else {
+  initNpubCopy();
+}
