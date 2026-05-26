@@ -42,19 +42,23 @@
 html {
   display: flex;
   width: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   flex-direction: column;
   align-items: center;
   background: var(--background-color);
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 body {
   position: relative;
   width: 100%;
+  min-width: 0;
   margin: 0;
   padding: var(--line-height) 2ch;
+  max-width: 100%;
   max-width: calc(min(80ch, round(down, 100%, 1ch)));
   line-height: var(--line-height);
   overflow-x: hidden;
@@ -137,6 +141,7 @@ sub {
 table {
   position: relative;
   top: calc(var(--line-height) / 2);
+  width: 100%;
   width: calc(round(down, 100%, 1ch));
   border-collapse: collapse;
   margin: 0 0 calc(var(--line-height) * 2);
@@ -338,6 +343,7 @@ button:focus, input:focus {
 }
 
 input {
+  width: 100%;
   width: calc(round(down, 100%, 1ch));
 }
 ::placeholder {
@@ -367,6 +373,7 @@ button:active {
 
 label {
   display: block;
+  width: 100%;
   width: calc(round(down, 100%, 1ch));
   height: auto;
   line-height: var(--line-height);
@@ -517,6 +524,15 @@ label input {
   z-index: 1000;
   transition: opacity 0.15s ease, transform 0.15s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  .npub-container .npub-tooltip {
+    white-space: normal;
+    word-break: break-all;
+    width: 250px;
+    max-width: 80vw;
+  }
 }
 
 /* Tooltip Arrow */
